@@ -1,0 +1,19 @@
+{
+  "name": "portifolio",
+  "version": "1.0.0",
+  "description": "Creating meu portifolio",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucaasmeiraf/Portf-olio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucaasmeiraf/Portf-olio/issues"
+  },
+  "homepage": "https://github.com/lucaasmeiraf/Portf-olio#readme"
+}
