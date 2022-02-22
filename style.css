@@ -1,12 +1,15 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 a {
     color: #fff;
     text-decoration: none;
     transition: 0.3s;
+    box-sizing: border-box;
+    padding: 20px;
 }
 
 a:hover{
@@ -32,6 +35,41 @@ main{
     background: url("./images/bg-night.jpg") no-repeat center center;
     background-size: cover;
     height: 92vh;
+    border-top: 0.4px solid rgba(255, 255, 255, 0.555);
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.conteudo-principal-img{
+    display: flex;
+    width: 430px;
+    margin-top: 50px;
+    margin-left: -430px;
+    padding: 5px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: rgba(253, 253, 253, 0.637);
+}
+
+.conteudo-principal-txt{
+    color: white;
+    background: black;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Arial, Helvetica, sans-serif;
+    background: rgba(0, 0, 0, 0.938);
+    height: 8vh;
+    letter-spacing: 4px;
+    border-top: 0.4px solid rgba(255, 255, 255, 0.555);
 }
 
 .nav-list{
@@ -67,7 +105,12 @@ main{
     cursor: pointer;
 }
 
-@media (max-width: 999px){
+footer > a{
+    cursor: pointer;
+}
+
+
+@media (max-width: 1150px){
     body{
         overflow-x: hidden;
     }
@@ -75,7 +118,7 @@ main{
         position: absolute;
         top: 8vh;
         right: 0;
-        width: 100vw;
+        width: 50vw;
         height: 92vh;
         background: rgba(0, 0, 0, 0.938);
         flex-direction: column;
